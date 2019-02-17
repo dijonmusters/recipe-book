@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "recipe book",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A digital recipe book so I stop forgetting delicious meals",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jon Meyers",
   "dependencies": {
     "gatsby": "^2.1.4",
     "gatsby-image": "^2.0.29",
@@ -12,6 +12,7 @@
     "gatsby-plugin-react-helmet": "^3.0.6",
     "gatsby-plugin-sharp": "^2.0.20",
     "gatsby-source-filesystem": "^2.0.20",
+    "gatsby-transformer-remark": "^2.2.5",
     "gatsby-transformer-sharp": "^2.1.13",
     "prop-types": "^15.7.2",
     "react": "^16.8.2",
