@@ -1,4 +1,12 @@
-## Develop
+# Dependencies
+
+[Node.js](https://nodejs.org/en/download/)
+
+[Gatsby CLI](https://www.npmjs.com/package/gatsby-cli)
+
+    npm install gatsby-cli -g
+
+# Develop
 
 Clone repo
 
@@ -20,6 +28,6 @@ Open browser and navigate to address
 
     http://localhost:8000/
 
-## Deploy
+# Deploy
 
 There is a hook for changes on the repository so simply commit and push changes to rebuild and deploy the site
