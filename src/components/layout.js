@@ -11,6 +11,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   background: linear-gradient(to right, #BDFFF3, #4AC29A);
+  text-transform: lowercase;
 `;
 
 const Main = styled.main`

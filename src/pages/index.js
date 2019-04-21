@@ -35,6 +35,7 @@ const Card = styled.div`
   align-items: center;
   justify-content: center;
   font-size: 1rem;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1);
 `;
 
 const LinkStyled = styled(Link)`
@@ -46,12 +47,12 @@ const LinkStyled = styled(Link)`
 
 const RecipeGrid = styled.div`
   display: grid;
-  grid-gap: 0.25rem;
+  grid-gap: 0.125rem;
   grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
   @media only screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
-    width: 100%;
   }
 `;
 
