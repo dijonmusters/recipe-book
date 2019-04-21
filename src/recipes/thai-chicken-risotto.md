@@ -2,7 +2,7 @@
 path: "/recipes/thai-chicken-risotto"
 date: "2019-02-17"
 title: "thai chicken risotto"
-time: 60 minutes
+time: "60 minutes"
 ingredients: [
   "500g chicken thigh fillets - cut to 2cm pieces",
   "1 brown onion - diced",
@@ -20,20 +20,18 @@ ingredients: [
 ]
 ---
 
-## Method
-
 1. preheat oven to 180°C.
 
-1. fry chicken until lightly golden - approx 5 mins - and remove from pan.
+2. fry chicken until lightly golden - approx 5 mins - and remove from pan.
 
-1. fry onion, chilli, garlic and kaffir lime leaves until onion is soft - approx 3-5 mins.
+3. fry onion, chilli, garlic and kaffir lime leaves until onion is soft - approx 3-5 mins.
 
-1. add rice and curry paste, and stir to coat evenly.
+4. add rice and curry paste, and stir to coat evenly.
 
-1. add stock, half a cup of water and return the chicken.
+5. add stock, half a cup of water and return the chicken.
 
-1. bring to a simmer and then transfer covered to the oven for 25 mins.
+6. bring to a simmer and then transfer covered to the oven for 25 mins.
 
-1. stir in coconut cream and beans and let stand for 10 mins.
+7. stir in coconut cream and beans and let stand for 10 mins.
 
-1. serve with fried onion, coriander and lime.
+8. serve with fried onion, coriander and lime.

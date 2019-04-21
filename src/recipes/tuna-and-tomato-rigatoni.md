@@ -2,7 +2,7 @@
 path: "/recipes/tuna-and-tomato-rigatoni"
 date: "2018-06-30"
 title: "tuna and tomato rigatoni"
-time: 30 minutes
+time: "30 minutes"
 ingredients: [
   "1 small red onion - diced",
   "1 medium lemon",
@@ -15,8 +15,6 @@ ingredients: [
   "100g grated parmesan cheese",
 ]
 ---
-
-## Method
 
 1. bring water to the boil while preparing ingredients.
 
