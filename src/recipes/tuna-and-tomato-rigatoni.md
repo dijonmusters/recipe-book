@@ -16,16 +16,16 @@ ingredients: [
 ]
 ---
 
-1. bring water to the boil while preparing ingredients.
+bring water to the boil while preparing ingredients.
 
-1. pick the basil leaves and set aside - finely chop basil stalks.
+pick the basil leaves and set aside - finely chop basil stalks.
 
-1. add pasta to boiling water. fry basil stalks, onion, chillies and cinnamon in olive oil for approximately 10 minutes.
+add pasta to boiling water. fry basil stalks, onion, chillies and cinnamon in olive oil for approximately 10 minutes.
 
-1. drain oil from tuna and add to pan. break up chunks and combine with onion mixture.
+drain oil from tuna and add to pan. break up chunks and combine with onion mixture.
 
-1. add diced tomatoes, 1/3 of the parmesan cheese, 3/4 picked basil leaves (roughly torn), grind in pepper and cook down for approximately 5 minutes.
+add diced tomatoes, 1/3 of the parmesan cheese, 3/4 picked basil leaves (roughly torn), grind in pepper and cook down for approximately 5 minutes.
 
-1. drain pasta and add to the frying pan. add another 1/3 of the parmesan cheese, grate lemon zest and squeeze 1/4 of lemon into the frying pan. stir to combine.
+drain pasta and add to the frying pan. add another 1/3 of the parmesan cheese, grate lemon zest and squeeze 1/4 of lemon into the frying pan. stir to combine.
 
-1. serve topped with fresh basil leaves and extra squeeze of lemon juice.
+serve topped with fresh basil leaves and extra squeeze of lemon juice.

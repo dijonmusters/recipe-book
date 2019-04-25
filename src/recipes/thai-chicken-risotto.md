@@ -20,18 +20,18 @@ ingredients: [
 ]
 ---
 
-1. preheat oven to 180°C.
+preheat oven to 180°C.
 
-2. fry chicken until lightly golden - approx 5 mins - and remove from pan.
+fry chicken until lightly golden - approx 5 mins - and remove from pan.
 
-3. fry onion, chilli, garlic and kaffir lime leaves until onion is soft - approx 3-5 mins.
+fry onion, chilli, garlic and kaffir lime leaves until onion is soft - approx 3-5 mins.
 
-4. add rice and curry paste, and stir to coat evenly.
+add rice and curry paste, and stir to coat evenly.
 
-5. add stock, half a cup of water and return the chicken.
+add stock, half a cup of water and return the chicken.
 
-6. bring to a simmer and then transfer covered to the oven for 25 mins.
+bring to a simmer and then transfer covered to the oven for 25 mins.
 
-7. stir in coconut cream and beans and let stand for 10 mins.
+stir in coconut cream and beans and let stand for 10 mins.
 
-8. serve with fried onion, coriander and lime.
+serve with fried onion, coriander and lime.
