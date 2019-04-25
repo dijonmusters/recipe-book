@@ -31,8 +31,9 @@ const RecipeProvider = props => {
   const [recipes] = useState(allRecipes);
   const [filteredRecipes, setFilteredRecipes] = useState(recipes);
   const [selectedRecipe, setSelectedRecipe] = useState(null);
+  const resetFilteredRecipes = () => setFilteredRecipes(recipes);
   return (
-    <RecipeContext.Provider value={{ recipes, filteredRecipes, setFilteredRecipes, selectedRecipe, setSelectedRecipe }}>
+    <RecipeContext.Provider value={{ recipes, filteredRecipes, setFilteredRecipes, selectedRecipe, setSelectedRecipe, resetFilteredRecipes }}>
       {props.children}
     </RecipeContext.Provider>
   );

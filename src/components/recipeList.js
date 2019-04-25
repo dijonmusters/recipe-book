@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import styled from 'styled-components';
 import { Link } from 'gatsby';
 import { RecipeContext } from '../context/RecipeProvider';
@@ -73,8 +73,11 @@ const renderRecipes = (recipe, i) => {
   )
 };
 
-const RecipeList = props => {
-  const { filteredRecipes, setSelectedRecipe } = useContext(RecipeContext);
+const RecipeList = () => {
+  const { filteredRecipes, setSelectedRecipe, resetFilteredRecipes } = useContext(RecipeContext);
+  useEffect(() => {
+    resetFilteredRecipes();
+  }, []);
   setSelectedRecipe(null);
   return filteredRecipes.length > 0
     ? (
