@@ -10,6 +10,9 @@ import { graphql, useStaticQuery } from 'gatsby';
 const HeaderStyled = styled.header`
   background-color: white;
   padding: 2rem;
+  @media only screen and (max-width: 768px) {
+    padding: 1rem 0.5rem;
+  }
 `;
 
 const LinkStyled = styled(Link)`
