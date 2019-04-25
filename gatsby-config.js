@@ -21,7 +21,9 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-layout`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -31,7 +33,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/recipe-book-icon-green.svg`, // This path is relative to the root of the site.
       },
     },
     {

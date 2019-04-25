@@ -22,7 +22,7 @@ Install npm packages
 
 Run in development mode
 
-    gatsby develop
+    npm start
 
 Open browser and navigate to address
 

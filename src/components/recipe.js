@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useContext, useEffect } from 'react';
 import styled from 'styled-components';
+import { RecipeContext } from '../context/RecipeProvider';
 
 const Container = styled.div`
   flex: 1;
@@ -64,9 +65,13 @@ const Chevron = styled.span`
   transform: translateY(200px);
 `;
 
-const Recipe = ({ method, ingredients }) => {
+const Recipe = ({ method, ingredients, name }) => {
   const [selectedIngredients, setSelectedIngredients] = useState([]);
   const [selected, setSelected] = useState(true);
+  const { setSelectedRecipe } = useContext(RecipeContext);
+  useEffect(() => {
+    setSelectedRecipe(name);
+  }, []);
   const handleToggle = () => {
     setSelected(!selected);
   };
@@ -79,7 +84,7 @@ const Recipe = ({ method, ingredients }) => {
   }
   const renderIngredient = (ingredient) => (
     <p key={ingredient}>
-      <Ingredient selected={selectedIngredients.includes(ingredient)} onClick={() =>handleSelectIngredient(ingredient)}>
+      <Ingredient selected={selectedIngredients.includes(ingredient)} onClick={() => handleSelectIngredient(ingredient)}>
         {ingredient}
       </Ingredient>
     </p>

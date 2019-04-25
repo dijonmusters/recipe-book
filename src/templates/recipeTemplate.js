@@ -1,6 +1,5 @@
 import React from "react";
 import { graphql } from 'gatsby';
-import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Recipe from "../components/recipe";
 
@@ -10,10 +9,10 @@ export default function Template({
   const { markdownRemark } = data;
   const { frontmatter: { ingredients, title }, html: method } = markdownRemark;
   return (
-    <Layout>
+    <>
       <SEO title={title} keywords={[`${title}`, `recipe`, `instructions`]} />
-      <Recipe ingredients={ingredients} method={method} />
-    </Layout>
+      <Recipe ingredients={ingredients} method={method} name={title} />
+    </>
   );
 }
 

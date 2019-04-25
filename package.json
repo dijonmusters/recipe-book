@@ -5,12 +5,18 @@
   "version": "0.1.0",
   "author": "Jon Meyers",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.17",
+    "@fortawesome/free-solid-svg-icons": "^5.8.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.1.4",
     "gatsby-image": "^2.0.29",
+    "gatsby-plugin-layout": "^1.0.15",
     "gatsby-plugin-manifest": "^2.0.17",
     "gatsby-plugin-offline": "^2.0.23",
     "gatsby-plugin-react-helmet": "^3.0.6",
     "gatsby-plugin-sharp": "^2.0.20",
+    "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-source-filesystem": "^2.0.20",
     "gatsby-transformer-remark": "^2.2.5",
     "gatsby-transformer-sharp": "^2.1.13",
@@ -18,6 +24,7 @@
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "react-helmet": "^5.2.0",
+    "react-router-dom": "^5.0.0",
     "styled-components": "^4.2.0"
   },
   "keywords": [
