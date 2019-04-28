@@ -98,6 +98,8 @@ const Header = () => {
                     autoFocus={true}
                     ref={inputRef}
                     onChange={e => setFilteredRecipes(filterRecipes(recipes, e.currentTarget.value))}
+                    autoCapitalize="none"
+                    autoCorrect="off"
                   />
                   <Icon onClick={focusInput}><FontAwesomeIcon icon={faSearch}/></Icon>
                 </>
