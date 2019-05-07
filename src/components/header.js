@@ -100,6 +100,7 @@ const Header = () => {
                     onChange={e => setFilteredRecipes(filterRecipes(recipes, e.currentTarget.value))}
                     autoCapitalize="none"
                     autoCorrect="off"
+                    aria-label="Recipe search"
                   />
                   <Icon onClick={focusInput}><FontAwesomeIcon icon={faSearch}/></Icon>
                 </>
