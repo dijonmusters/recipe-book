@@ -10,6 +10,12 @@ const Container = styled.div`
   color: #444;
 `;
 
+const Content = styled.div`
+  background-color: white;
+  height: 100%;
+  padding: 2rem;
+`;
+
 const Ingredients = styled.div`
   padding: 2rem;
   flex-grow: 1;
@@ -92,7 +98,9 @@ const Recipe = ({ method, ingredients, name }) => {
   return (
     <Container selected={selected}>
       <Ingredients selected={selected}>
-        {ingredients.map(renderIngredient)}
+        <Content>
+          {ingredients.map(renderIngredient)}
+        </Content>
       </Ingredients>
       <Tab selected={selected} onClick={handleToggle}>
       <Text selected={selected}>
@@ -102,7 +110,9 @@ const Recipe = ({ method, ingredients, name }) => {
       </Text>
       </Tab>
       <Method selected={!selected}>
-        <div dangerouslySetInnerHTML={{ __html: method }} />
+        <Content>
+          <div dangerouslySetInnerHTML={{ __html: method }} />
+        </Content>
       </Method>
     </Container>
   );
