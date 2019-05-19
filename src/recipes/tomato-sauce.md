@@ -16,8 +16,6 @@ ingredients: [
 ]
 ---
 
-## Method
-
 Preheat oven to 150°C and slice roma tomatoes in half.
 
 Combine onion, garlic and olive oil in a bowl and microwave for 30 seconds.

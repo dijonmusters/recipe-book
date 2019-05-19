@@ -14,8 +14,6 @@ ingredients: [
 ]
 ---
 
-## Method
-
 Put all ingredients in a saucepan over medium heat and stir.
 
 Cook for 30 mins or until desired thickness.

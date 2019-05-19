@@ -13,8 +13,6 @@ ingredients: [
 ]
 ---
 
-## Method
-
 Combine the water, sugar and yeast by whisking with a fork. Set aside for 5 minutes - bubbles or foam should form on top.
 
 Sift flour and salt into a bowl and make a well in the centre.

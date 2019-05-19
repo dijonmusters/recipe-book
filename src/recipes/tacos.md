@@ -19,8 +19,6 @@ ingredients: [
 ]
 ---
 
-## Method
-
 Fry onion and garlic until translucent and add spices (not sugar) and cook for 1 minute.
 
 Add beef and cook until meat is browned. Add passata, vinegar, brown sugar and stock cube. Simmer mixture until thickened - approx 10 mins.
