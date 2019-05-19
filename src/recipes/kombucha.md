@@ -2,7 +2,11 @@
 path: "/recipes/kombucha"
 date: "2019-04-07"
 title: "kombucha"
+<<<<<<< HEAD
 time: "30 minutes"
+=======
+time: "30 minutes (14 days fermenting)"
+>>>>>>> NEW: Add recipes
 ingredients: [
   "1 cup of raw sugar",
   "4 litres of water",
