@@ -7,7 +7,7 @@ export default function Template({
   data,
 }) {
   const { markdownRemark } = data;
-  const { frontmatter: { ingredients, title }, html: method } = markdownRemark;
+  const { frontmatter: { ingredients, title, method } } = markdownRemark;
   return (
     <>
       <SEO title={title} keywords={[`${title}`, `recipe`, `instructions`]} />
@@ -19,13 +19,13 @@ export default function Template({
 export const pageQuery = graphql`
   query RecipeByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
         title
         ingredients
         time
+        method
       }
     }
   }

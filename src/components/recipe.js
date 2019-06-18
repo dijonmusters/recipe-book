@@ -12,6 +12,7 @@ const Content = styled.div`
   display: flex;
   overflow: scroll;
   scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
 `;
 
 const Panel = styled.div`
@@ -28,22 +29,36 @@ const Title = styled.h1`
   padding: 1rem 0;
   margin-bottom: 0;
   font-weight: 100;
-  color: #777;
+  color: #999;
   font-size: 3rem;
   background-color: white;
 `;
 
-const Ingredient = styled.span`
+const Step = styled.p`
+  display: flex;
+  margin: 0;
+  line-height: 1;
+`;
+
+const Number = styled.span`
+  color: #ddd;
+  font-size: 2rem;
+  width: 2rem;
+`;
+
+const Item = styled.span`
   ${props => props.selected ? 'text-decoration: line-through' : ''};
   &:hover {
     cursor: pointer;
   }
   display: block;
   margin: 0.5rem 0;
+  flex: 1;
 `;
 
 const Recipe = ({ method, ingredients, name }) => {
   const [selectedIngredients, setSelectedIngredients] = useState([]);
+  const [selectedSteps, setSelectedSteps] = useState([]);
   const { setSelectedRecipe } = useContext(RecipeContext);
 
   useEffect(() => {
@@ -58,14 +73,35 @@ const Recipe = ({ method, ingredients, name }) => {
     );
   }
 
-  const renderIngredient = (ingredient) => (
-    <Ingredient
+  const handleSelectStep = step => {
+    setSelectedSteps(
+      selectedSteps.includes(step)
+        ? selectedSteps.filter(s => s !== step)
+        : [...selectedSteps, step]
+    );
+  }
+
+  const renderIngredient = ingredient => (
+    <Item
       key={ingredient}
       selected={selectedIngredients.includes(ingredient)}
       onClick={() => handleSelectIngredient(ingredient)}
     >
       {ingredient}
-    </Ingredient>
+    </Item>
+  );
+
+  const renderStep = (step, i) => (
+    <Step>
+      <Number>{i + 1}</Number>
+      <Item
+        key={step}
+        selected={selectedSteps.includes(step)}
+        onClick={() => handleSelectStep(step)}
+      >
+        {step}
+      </Item>
+    </Step>
   );
 
   return (
@@ -81,7 +117,7 @@ const Recipe = ({ method, ingredients, name }) => {
           <Title>
             method
           </Title>
-          <div dangerouslySetInnerHTML={{ __html: method }} />
+          {method.map(renderStep)}
         </Panel>
       </Content>
     </Container>

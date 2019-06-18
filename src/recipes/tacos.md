@@ -17,10 +17,9 @@ ingredients: [
   "1 chicken stock cube",
   "1/2 tbsp of brown sugar"
 ]
+method: [
+  "Fry onion and garlic until translucent and add spices (not sugar) and cook for 1 minute.",
+  "Add beef and cook until meat is browned. Add passata, vinegar, brown sugar and stock cube. Simmer mixture until thickened - approx 10 mins.",
+  "Serve in mini tortillas with avocado, cherry tomatoes, greek yogurt, lime and coriander."
+]
 ---
-
-Fry onion and garlic until translucent and add spices (not sugar) and cook for 1 minute.
-
-Add beef and cook until meat is browned. Add passata, vinegar, brown sugar and stock cube. Simmer mixture until thickened - approx 10 mins.
-
-Serve in mini tortillas with avocado, cherry tomatoes, greek yogurt, lime and coriander.

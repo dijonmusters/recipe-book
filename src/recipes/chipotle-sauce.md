@@ -12,10 +12,9 @@ ingredients: [
   "80g brown sugar",
   "250mL water"
 ]
+method: [
+  "Put all ingredients in a saucepan over medium heat and stir.",
+  "Cook for 30 mins or until desired thickness.",
+  "Process the mixture into a thick sauce."
+]
 ---
-
-Put all ingredients in a saucepan over medium heat and stir.
-
-Cook for 30 mins or until desired thickness.
-
-Process the mixture into a thick sauce.

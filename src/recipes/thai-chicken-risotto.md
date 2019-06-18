@@ -18,20 +18,14 @@ ingredients: [
   "fried onion - to serve",
   "lime wedges - to serve",
 ]
+method: [
+  "preheat oven to 180°C.",
+  "fry chicken until lightly golden - approx 5 mins - and remove from pan.",
+  "fry onion, chilli, garlic and kaffir lime leaves until onion is soft - approx 3-5 mins.",
+  "add rice and curry paste, and stir to coat evenly.",
+  "add stock, half a cup of water and return the chicken.",
+  "bring to a simmer and then transfer covered to the oven for 25 mins.",
+  "stir in coconut cream and beans and let stand for 10 mins.",
+  "serve with fried onion, coriander and lime."
+]
 ---
-
-preheat oven to 180°C.
-
-fry chicken until lightly golden - approx 5 mins - and remove from pan.
-
-fry onion, chilli, garlic and kaffir lime leaves until onion is soft - approx 3-5 mins.
-
-add rice and curry paste, and stir to coat evenly.
-
-add stock, half a cup of water and return the chicken.
-
-bring to a simmer and then transfer covered to the oven for 25 mins.
-
-stir in coconut cream and beans and let stand for 10 mins.
-
-serve with fried onion, coriander and lime.

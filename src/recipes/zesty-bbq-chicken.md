@@ -16,16 +16,12 @@ ingredients: [
   "Grind of Pepper",
   "Greek Yogurt to serve"
 ]
+method: [
+  "Put all ingredients except chicken and oil in a food processor and pulse until mixed but chunky.",
+  "Leave processor running on low and add oil slowly.",
+  "Cover chicken and punch to flatten to approximately 2-4cm thick.",
+  "Use approximately half the mixture to marinade Chicken for as long as you can.",
+  "Cook Chicken on BBQ (10 mins) on in oven at 200°C (30 mins), turning once.",
+  "Serve with a spoonful of marinade sauce and a dollop of Greek Yogurt."
+]
 ---
-
-Put all ingredients except chicken and oil in a food processor and pulse until mixed but chunky.
-
-Leave processor running on low and add oil slowly.
-
-Cover chicken and punch to flatten to approximately 2-4cm thick.
-
-Use approximately half the mixture to marinade Chicken for as long as you can.
-
-Cook Chicken on BBQ (10 mins) on in oven at 200°C (30 mins), turning once.
-
-Serve with a spoonful of marinade sauce and a dollop of Greek Yogurt.
