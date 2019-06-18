@@ -6,10 +6,10 @@ import Header from '../components/header';
 
 const Container = styled.div`
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   background: linear-gradient(to right, #BDFFF3, #4AC29A);
   text-transform: lowercase;
+  display: flex;
+  flex-direction: column;
 `;
 
 const Main = styled.main`
@@ -19,14 +19,14 @@ const Main = styled.main`
 
 const Layout = props => {
   return (
-    <Container>
-      <RecipeProvider>
+    <RecipeProvider>
+      <Container>
         <Header />
         <Main>
           {props.children}
         </Main>
-      </RecipeProvider>
-    </Container>
+      </Container>
+    </RecipeProvider>
   );
 }
 
