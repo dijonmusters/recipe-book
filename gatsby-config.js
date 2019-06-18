@@ -33,7 +33,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: `src/images/recipe-book-icon-green.svg`, // This path is relative to the root of the site.
+        icon: `src/images/recipe-book-icon-green-border.png`, // This path is relative to the root of the site.
       },
     },
     {
