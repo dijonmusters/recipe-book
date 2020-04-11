@@ -17,7 +17,7 @@ ingredients: [
   "180g haloumi - sliced",
   "1/2 cup red wine - only if you have some leftover",
   "100g baby spinach",
-  "1 tbl yogurt per serving,
+  "1 tbl yogurt per serving",
   "coriander for serving"
 ]
 method: [
