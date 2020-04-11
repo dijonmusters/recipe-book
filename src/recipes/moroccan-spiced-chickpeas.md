@@ -22,7 +22,7 @@ ingredients: [
 ]
 method: [
   "Fry onion, garlic and spices for 5 mins. Add tomato paste and fry for 3 mins.",
-  "Add chickpeas, tomatoes, brown sugar and red wine, and cook for 10 mins."
+  "Add chickpeas, tomatoes, brown sugar and red wine, and cook for 10 mins.",
   "Meanwhile, fry haloumi in a separate frying pan - approx 5 min each side.",
   "Add baby spinach and wilt for approx 3 mins.",
   "Serve topped with greek yogurt, coriander and fried haloumi."
