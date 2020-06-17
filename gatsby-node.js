@@ -1,12 +1,7 @@
-/**
- * Implement Gatsby's Node APIs in this file.
- *
- * See: https://www.gatsbyjs.org/docs/node-apis/
- */
+const path = require('path');
+const { writeToS3 } = require('./src/utils/s3');
 
-// You can delete this file if you're not using it
-
-const path = require("path");
+const isProd = process.env.NODE_ENV === 'production';
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
@@ -23,14 +18,30 @@ exports.createPages = ({ actions, graphql }) => {
           node {
             frontmatter {
               path
+              title
+              time
+              ingredients
+              method
             }
           }
         }
       }
     }
-  `).then(result => {
+  `).then(async (result) => {
     if (result.errors) {
       return Promise.reject(result.errors);
+    }
+
+    if (isProd) {
+      const recipes = result.data.allMarkdownRemark.edges.map(
+        ({
+          node: {
+            frontmatter: { title, time, ingredients, method },
+          },
+        }) => ({ title, time, ingredients, method })
+      );
+
+      await writeToS3(recipes);
     }
 
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
