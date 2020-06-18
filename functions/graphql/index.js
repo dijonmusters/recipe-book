@@ -1,5 +1,5 @@
 const { ApolloServer, gql } = require('apollo-server-lambda');
-const { readFromS3 } = require('../src/utils/s3');
+const { readFromS3 } = require('./s3');
 
 const typeDefs = gql`
   type Recipe {
